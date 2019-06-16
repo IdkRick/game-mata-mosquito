@@ -1,0 +1,62 @@
+html {
+   cursor: url(../img/mata_mosquito.png) 30 30, auto;
+}
+
+body {
+   background: url(../img/bg.jpg) no-repeat center;
+   background-size: cover;
+   background-attachment: fixed;
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.mosquito1 {
+   width: 50px;
+   height: 50px;
+}
+
+.mosquito2 {
+   width: 70px;
+   height: 70px;
+}
+
+.mosquito3 {
+   width: 90px;
+   height: 90px;
+}
+
+/* Lado para qual o mosquito está direcionado; esquerdo/direito */
+.ladoA {
+   transform: scaleX(1)/* opcional */
+}
+
+.ladoB {
+   transform: scaleX(-1)
+}
+
+/* Painel
+========== */
+.painel {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 190px;
+   padding: 10px;
+   border-top: 1px solid #fff;
+   background-color: #fff;
+   opacity: 0.7;
+}
+
+.vidas {
+   float: left;
+}
+
+.cronometro {
+   float: left;
+   font-size: 1.1em;
+   font-weight: bold;
+}
+
+
+.img-fluid {
+   height: 450px;
+}
